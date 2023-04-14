@@ -13,11 +13,16 @@ nav{
     font-family: 'Anuphan', sans-serif;
 }
 
+.navBar{
+    position: sticky;
+    top: 0;
+}
+
 nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 65px;
+    height: 60px;
     background-color: black;
     color: white;
 }
@@ -27,7 +32,7 @@ nav ul li{
 }
 
 .brand img{
-    height: 50px;
+    height: 45px;
     padding: 0 8px;
 }
 
@@ -39,13 +44,13 @@ nav ul li{
 }
 
 .container{
-    min-height: 72vh;
+    min-height: 60vh;
     background-color: black;
     color: white;
     font-family: 'Varela Round', sans-serif;
     display: flex;
     margin: 23px auto;
-    width: 70%;
+    width: 60%;
     border-radius: 12px;
     padding: 34px;
     background-image: url('bg.jpg');
@@ -53,7 +58,7 @@ nav ul li{
 
 .bottom{
     position: sticky;
-    height: 120px;
+    height: 80px;
     background-color: black;
     color: white;
     bottom: 0;
@@ -82,7 +87,7 @@ nav ul li{
 }
 
 .songItem{
-    height: 50px;
+    height: 40px;
     display: flex;
     background-color: white;
     color: black;
@@ -93,8 +98,8 @@ nav ul li{
 }
 
 .songItem img{
-    width: 40px;
-    margin: 0 23px;
+    width: 30px;
+    margin: 0 20px;
     border-radius: 20px;
 }
 
